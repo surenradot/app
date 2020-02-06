@@ -34,7 +34,7 @@ namespace app
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            var connection = @"Server=db;Database=master;User=sa;Password=Your_password123;";
+            var connection = @"Server=db;Database=testcore;User=sa;Password=Your_password123;";
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connection));
             services.AddDefaultIdentity<IdentityUser>()
