@@ -34,9 +34,12 @@ namespace app
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            var connection = @"Server=db;Database=testcore;User=sa;Password=Your_password123;";
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connection));
+            //var connection = @"Server=db;Database=testcore;User=sa;Password=Your_password123;";
+            // services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(connection));
+
+            //var connection = @"server=testcore.cvaqpgqpnbav.ap-south-1.rds.amazonaws.com;port=3306;userid=admin;password=wZg9vHnBDNzjdc3E03jZx;database=testcore;";
+            var connection = @"server=db;port=3306;userid=dbuser;password=dbuserpassword;database=accountowner;";
+            services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(connection));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 

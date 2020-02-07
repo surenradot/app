@@ -9,7 +9,6 @@ C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.csprojAssemblyRe
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.RazorAssemblyInfo.cache
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.RazorAssemblyInfo.cs
-C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.AssemblyInfoInputs.cache
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.AssemblyInfo.cs
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.TagHelpers.input.cache
@@ -33,3 +32,4 @@ C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.Views.pdb
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.dll
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.pdb
 C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\app.csproj.CopyComplete
+C:\Users\Admin\source\repos\app\app\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
